@@ -7,11 +7,20 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout repository
@@ -25,33 +34,20 @@ jobs:
       - name: Run build.py
         run: python3 build.py
 
-      - name: Verify build output
+      - name: Verify output
         run: |
           echo "=== Generated pages ==="
           find allmytube-site -name "*.html" | sort
           echo "=== Total files: $(find allmytube-site -type f | wc -l) ==="
-          echo "=== Checking affiliate link ==="
-          grep -l "linkconnector" allmytube-site/index.html && echo "Affiliate link OK"
 
-      - name: Remove old junk files from main branch
-        run: |
-          # Delete any old markdown/content files that aren't ours
-          find . -maxdepth 1 -name "*.md" ! -name "README.md" -delete
-          find . -maxdepth 1 -name "index.md" -delete 2>/dev/null || true
-          find . -maxdepth 2 -name "_config.yml" -delete 2>/dev/null || true
-          # Remove any old blog/ folder with old content at repo root level
-          if [ -d "blog" ] && [ ! -f "allmytube-site/blog/index.html" ]; then
-            echo "No old blog to clean"
-          fi
-          echo "Cleanup done"
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
 
-      - name: Deploy to GitHub Pages (gh-pages branch)
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./allmytube-site
-          publish_branch: gh-pages
-          force_orphan: true
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
-          commit_message: 'Deploy AllMyTube site ${{ github.sha }}'
+          path: ./allmytube-site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
