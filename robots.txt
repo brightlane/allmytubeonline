@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /assets/
+
+Sitemap: https://brightlane.github.io/allmytubeonline/sitemap.xml

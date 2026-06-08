@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AllMyTube Guide — Blog</title>
+    <link>https://brightlane.github.io/allmytubeonline/blog/</link>
+    <description>Video download guides, reviews and tutorials from the AllMyTube affiliate guide.</description>
+    <language>en-us</language>
+    <atom:link href="https://brightlane.github.io/allmytubeonline/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>How to Download YouTube 4K Videos in 2026</title>
+    <link>https://brightlane.github.io/allmytubeonline/youtube-downloader/</link>
+    <description>Step-by-step guide to saving YouTube videos at maximum 4K quality.</description>
+    <pubDate>2026-06-01</pubDate>
+    <guid>https://brightlane.github.io/allmytubeonline/youtube-downloader/</guid>
+  </item>
+  <item>
+    <title>How to Extract MP3 Audio from Any Video</title>
+    <link>https://brightlane.github.io/allmytubeonline/mp3-extractor/</link>
+    <description>Convert any video to high-quality MP3 audio using AllMyTube.</description>
+    <pubDate>2026-05-15</pubDate>
+    <guid>https://brightlane.github.io/allmytubeonline/mp3-extractor/</guid>
+  </item>
+  <item>
+    <title>Download an Entire YouTube Playlist in One Click</title>
+    <link>https://brightlane.github.io/allmytubeonline/playlist-downloader/</link>
+    <description>Save entire YouTube playlists in one click with batch downloading.</description>
+    <pubDate>2026-05-01</pubDate>
+    <guid>https://brightlane.github.io/allmytubeonline/playlist-downloader/</guid>
+  </item>
+  <item>
+    <title>TikTok Video Downloader — No Watermark</title>
+    <link>https://brightlane.github.io/allmytubeonline/tiktok-downloader/</link>
+    <description>Download TikTok videos without the watermark in HD.</description>
+    <pubDate>2026-04-15</pubDate>
+    <guid>https://brightlane.github.io/allmytubeonline/tiktok-downloader/</guid>
+  </item>
+  <item>
+    <title>AllMyTube Review 2026 — 9.2/10</title>
+    <link>https://brightlane.github.io/allmytubeonline/review/</link>
+    <description>Our most comprehensive AllMyTube review after 30 days of testing.</description>
+    <pubDate>2026-03-01</pubDate>
+    <guid>https://brightlane.github.io/allmytubeonline/review/</guid>
+  </item>
+  </channel>
+</rss>

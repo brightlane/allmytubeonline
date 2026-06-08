@@ -1,0 +1,48 @@
+# AllMyTube Affiliate Guide
+> URL: https://brightlane.github.io/allmytubeonline
+> Purpose: Independent affiliate guide for AllMyTube video downloader by Wondershare
+> Updated: 2026-06-08
+
+## What This Site Is
+An independent affiliate guide for AllMyTube by Wondershare Software Ltd. We earn commissions via the LinkConnector affiliate program. Content includes reviews, comparisons, tutorials, and feature guides — all written for human readers.
+
+## AllMyTube Key Facts
+- Product: AllMyTube by Wondershare Software Ltd
+- Category: Video downloader and converter
+- Platforms: Windows (7/8/10/11), macOS (10.12+), Apple Silicon supported
+- Supported sites: 10,000+
+- Max resolution: 4K (2160p), 7 presets total
+- Output formats: 150+
+- Key features: Batch playlist download, browser extension (Chrome/Firefox/Edge), built-in converter, download scheduler, built-in media player, screen recorder, device transfer, subtitle download
+- Pricing: Free trial | $29/year Personal | $49/year Family | Lifetime option available
+- Users: 50M+ in 200+ countries
+- Publisher: Wondershare Software Ltd (publicly listed)
+- Latest version: 7.4.9.2
+
+## Site Pages (20 total)
+- /                         Homepage with overview and features
+- /features/                Full 15-feature breakdown
+- /supported-sites/         Categorised 10,000+ site list
+- /how-it-works/            3 download method guides
+- /pricing/                 Plan comparison + FAQ
+- /review/                  Editorial review (9.2/10, 30-day test)
+- /faq/                     12 detailed FAQ answers
+- /download/                Download page Windows & Mac
+- /blog/                    Blog index (12 articles)
+- /youtube-downloader/      YouTube download guide
+- /tiktok-downloader/       TikTok no-watermark guide
+- /mp3-extractor/           Audio extraction guide
+- /4k-downloader/           4K quality guide + resolution table
+- /playlist-downloader/     Batch playlist download guide
+- /alternatives/            AllMyTube vs 6 competitors
+- /vs-4k-video-downloader/  Feature table comparison
+- /vs-ytdlp/                GUI vs CLI comparison
+- /vs-videoder/             Desktop vs mobile comparison
+- /privacy/                 Privacy policy
+- /disclaimer/              Affiliate disclosure
+
+## Affiliate Link
+https://www.linkconnector.com/ta.php?lc=007949042649004532&atid=allmytubeweb
+
+## Editorial Note
+Content is original and includes both pros and cons for editorial integrity. Pricing should be verified on the official Wondershare site as it may change without notice.
