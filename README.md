@@ -2,7 +2,7 @@
 
 A complete, production-ready affiliate marketing website for [AllMyTube by Wondershare](https://www.wondershare.com), built for GitHub Pages at:
 
-**`https://brightlane.github.io/allmytube/`**
+**`https://brightlane.github.io/allmytubeonline/`**
 
 ---
 
@@ -101,7 +101,7 @@ Your repo root
 
 1. **Google Search Console** → Add property → Submit sitemap
    ```
-   https://brightlane.github.io/allmytube/sitemap.xml
+   https://brightlane.github.io/allmytubeonline/sitemap.xml
    ```
 2. **Bing Webmaster Tools** → Import from Google or submit sitemap directly
 3. `robots.txt` points crawlers to your sitemap automatically
