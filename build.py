@@ -4,8 +4,8 @@ from pathlib import Path
 from datetime import date
 
 BASE      = Path(__file__).parent / "allmytube-site"
-SITE_ROOT = "/allmytube"
-SITE_URL  = "https://brightlane.github.io/allmytube"
+SITE_ROOT = "/allmytubeonline"
+SITE_URL  = "https://brightlane.github.io/allmytubeonline"
 AFF       = "https://www.linkconnector.com/ta.php?lc=007949042649004532&atid=allmytubeweb"
 YEAR      = date.today().year
 
